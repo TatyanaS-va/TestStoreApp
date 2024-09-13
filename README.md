@@ -1,5 +1,7 @@
-В проекте используется PostgreSQL
-Для запуска необходимо в ConnectionString (Папка DataAccess -> Класс ConnectionInfo) указать данные для подключения к БД
+В проекте используется PostgreSQL.
+
+Для запуска необходимо в ConnectionString (Папка DataAccess -> Класс ConnectionInfo) указать данные для подключения к БД.
+
 Для генерации исходных данных можно использовать запросы:
 INSERT INTO public."Boxes"(
 	  "ProductionDate", "Width", "Height", "Depth", "Weight")
