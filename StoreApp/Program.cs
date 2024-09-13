@@ -62,7 +62,7 @@ using (ApplicationContext db = new ApplicationContext())
 }
 //Вывод данных по заданию 
 
-DataDisplayer.BooksDataOutputBySql(@"SELECT * FROM ""Boxes""");
+DataDisplayer.BooksDataOutputBySql(@"SELECT * FROM ""Boxes"" WHERE ""PalletId"" IS NOT NULL");
 
 DataDisplayer.PalletsDataOutputBySql(@"SELECT * FROM ""Pallets""  WHERE  ""ExpirationDate"" IS NOT NULL");
 

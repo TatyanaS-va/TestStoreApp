@@ -21,8 +21,8 @@ INSERT INTO public."Boxes"(
 	(TO_DATE('22-03-2022', 'DD-MM-YYYY'),60,40,60,80),
   	(TO_DATE('22-03-2024', 'DD-MM-YYYY'),50,60,70 ,80),
 	(TO_DATE('25-03-2022', 'DD-MM-YYYY'),20,30,60,80),
-	(TO_DATE('22-03-2022', 'DD-MM-YYYY'),60,40,60,80)
-	;
+	(TO_DATE('22-03-2022', 'DD-MM-YYYY'),60,40,60,80);
+	
 
  INSERT INTO public."Palletes"(
 	"Width", "Height", "Depth")
@@ -35,4 +35,5 @@ INSERT INTO public."Boxes"(
 	(200,300,600),
   	(100,560,480),
 	(200,1050,300);
+
 
